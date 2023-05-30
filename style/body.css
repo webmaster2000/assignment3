@@ -290,7 +290,7 @@ nav ul a {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    
+
 
 }
 
@@ -330,7 +330,7 @@ nav ul a {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    
+
 }
 
 .second-right button {
@@ -341,4 +341,88 @@ nav ul a {
     padding: 15px;
     font-family: 'Cormorant Upright';
     margin-top: 20px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+
+.section-three-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    gap: 20px;
+}
+
+.section-three-top p {
+    width: 267px;
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.section-three-top h1 {
+    /* width: 407px;
+    height: 83px; */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+
+
+.section-three-below img {
+    background-color: black;
+    width: 80%;
+    margin: 40px;
+    margin-left: 123px;
+    display: flex;
+    align-items: center;
+
+}
+
+.b button {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    background-color: #DCCA87;
+    border: none;
+    margin: 0px;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-family: 'Cormorant Upright';
+
+}
+
+.fouth {
+    display: flex;
+    align-items: center;
+    background-image: url(./Mask\ Group\(2\).svg);
+  
+}
+
+.fouth-left img {
+    width: 60%;
+    margin: 80px;
+    margin-left: 120px;
+}
+.fouth-right img{
+    width: 80%;
 }

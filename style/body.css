@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    position: fixed;
 }
 
 h2 {
@@ -142,7 +143,7 @@ nav ul a {
     text-align: left;
     font-family: 'Cormorant Upright';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 65px;
     line-height: 130%;
     letter-spacing: 0.04em;
@@ -287,10 +288,9 @@ nav ul a {
     color: #AAAAAA;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
-
+    line-height: 140%;
 
 }
 
@@ -327,9 +327,10 @@ nav ul a {
     color: #AAAAAA;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 130%;
+
 
 }
 
@@ -415,7 +416,7 @@ nav ul a {
     display: flex;
     align-items: center;
     background-image: url(./Mask\ Group\(2\).svg);
-  
+
 }
 
 .fouth-left img {
@@ -423,6 +424,576 @@ nav ul a {
     margin: 80px;
     margin-left: 120px;
 }
-.fouth-right img{
-    width: 80%;
+
+.fouth-right img {
+    width: 100%;
+
+}
+
+.fifth {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fifth img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.sixth {
+    background-image: url(./BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+
+.for-six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+}
+
+.sixth-left img {
+    width: 470px;
+    margin: 21px;
+    padding: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 150px;
+    margin-left: 150px;
+    /* background-color: aqua; */
+
+
+}
+
+.right-logo {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.middle-logo {
+    display: flex;
+    gap: 30px;
+
+}
+
+.myp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 300px;
+
+}
+
+.myp img {
+    width: 80px;
+}
+
+.mypp {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 500px;
+}
+
+.mypp h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.mypp p {
+    width: 160px;
+    /* height: 56px; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.top-sixth {
+    display: block;
+    text-align: left;
+    margin-right: 300px;
+
+}
+
+.top-sixth h4 {
+    display: block;
+    width: 220px;
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 90%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.top-sixth h1 {
+    width: 320px;
+    height: 83px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.seven {
+    background-image: url(./mack\ back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.my-image {
+    display: flex;
+    width: 60%;
+    margin-right: 800px;
+
+}
+
+.my-image img {
+    width: 190px;
+
+
+}
+
+.seven-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 17px;
+    margin: 30px;
+}
+
+.seven-right h5 {
+    width: 100px;
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.seven-right img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 40px;
+    height: 9px;
+}
+
+.seven-right h1 {
+    width: 367px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 50%;
+    text-align: left;
+    color: #DCCA87;
+
+}
+
+.seven-right p {
+    width: 420px;
+    height: 56px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+
+}
+
+.seven-right button {
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #DCCA87;
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Cormorant Upright';
+
+}
+
+.eight {
+    background-image: url(./Mask\ Group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.my-eight-image img {
+    width: 500px;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+}
+
+.eight-right {
+    width: 100%;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.eight-right h5 {
+    width: 76px;
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.eight-right h1 {
+    width: 350px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: left;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.eight-right p {
+    width: 513px;
+    height: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+
+}
+
+.eight-time h4 {
+    width: 208px;
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 109%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+
+
+}
+
+.eight-time p {
+    width: 244px;
+    height: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.eight-time button {
+    width: 120px;
+    text-align: center;
+    font-weight: 600px;
+    align-items: center;
+    background-color: #DCCA87;
+    border: none;
+    margin: 40px;
+    padding: 15px;
+    font-family: 'Cormorant Upright';
+    font-size: 18px;
+}
+
+.nineth-center {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border: 2px;
+    width: 55%;
+    height: 80%;
+    padding: 50px;
+    margin: 0px 40px;
+    margin-left: 280px;
+    background-color: rgb(37, 35, 35);
+}
+
+.nineth-center p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 40%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.nineth-center h5 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+
+}
+
+.nineth-center h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+
+
+
+.text-email {
+    display: flex;
+    align-items: center;
+    margin-left: 131px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+input {
+    width: 60%;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px 0;
+    color: white;
+    border: 1px solid #F5EFDB;
+    background-color: black;
+    font-family: 'Cormorant Upright';
+}
+
+.text-email button {
+    width: 80px;
+    text-align: center;
+    font-weight: 600px;
+    background-color: #DCCA87;
+    border: none;
+    padding: 3px;
+    font-family: 'Cormorant Upright';
+    font-size: 18px;
+}
+
+footer {
+    background-image: url(./footer.png);
+    margin-top: -262px;
+    width: 100%;
+    position: absolute;
+
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 300px;
+
+}
+
+.last-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+
+.last-left h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #F5EFDB;
+
+}
+
+.last-left p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.last-middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* background-color: aqua; */
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.last-middle img {
+    display: flex;
+    width: 40px;
+
+}
+
+.last-middle h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    margin-bottom: 30px;
+}
+
+.last-middle p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+
+.social {
+    display: flex;
+    width: 20px;
+    margin: 20px 30px;
+    margin-bottom: 70px;
+    gap: 2px;
+}
+
+.last-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.last-right h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #F5EFDB;
+
+
+}
+
+.last-right p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175%;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+
 }

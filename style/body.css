@@ -789,8 +789,8 @@ nav ul a {
     border: 2px;
     width: 55%;
     height: 80%;
-    padding: 50px;
-    margin: 0px 40px;
+    padding: 40px;
+    margin: 6px 40px;
     margin-left: 280px;
     background-color: rgb(37, 35, 35);
 }
@@ -870,7 +870,7 @@ input {
 
 footer {
     background-image: url(./footer.png);
-    margin-top: -262px;
+    margin-top: -267px;
     width: 100%;
     position: absolute;
 
@@ -881,7 +881,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 310px;
 
 }
 

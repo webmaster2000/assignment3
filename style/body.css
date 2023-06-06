@@ -27,6 +27,7 @@ header {
     align-items: center;
     margin: 0;
     position: fixed;
+    z-index: 2;
 }
 
 h2 {
